@@ -1,9 +1,9 @@
-# Walmart Data Analysis
+v# Walmart Data Analysis
 
 ## Project Overview
 This project is an end-to-end data analysis solution designed to extract critical business insights from any sales data. Utilizing Python for data processing, visualizating  and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is stimulated real-world tasks of data analysts.
 
-As a Data Science student, my goal was to move beyond theory and tackle a practical, end-to-end data analysis project. I chose to analyze this sales dataset to solve common business challenges, such as identifying top-performing products and pinpointing opportunities for growth. This project serves as a demonstration of my skills in data manipulation (Python), advanced querying (SQL), and extracting actionable insights that can drive business decisions. 
+As a Data Science student, my goal was to move beyond theory and tackle a practical, end-to-end data analysis project. I chose to analyze this sales dataset to solve common business challenges, such as identifying top-performing products and pinpointing opportunities for growth. This project serves as a demonstration of my skills in ETL process, data manipulation, cleansing, visualizing (Python), advanced querying (SQL), and extracting actionable insights that can drive business decisions. 
 
 
 ## Project Step
@@ -56,19 +56,24 @@ As a Data Science student, my goal was to move beyond theory and tackle a practi
 ### 8. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
    - **Project Publishing**: The project is public on GitHub, including:
-     - The `README.md` fil.
-     - Jupyter Notebooks.
-     - SQL query scripts.
-     - Data files.
+     - The `README.md` file.
+     - Jupyter Notebooks: ETL.ipynb, Visualization.ipynb
+     - SQL query scripts: sql_script_EDA.sql
+     - Data files: Walmrt.csv
 
 ---
 
 ## Results and Insights
 
-This section will include your analysis findings:
-- **Sales Insights**: Key categories, branches with highest sales, and preferred payment methods.
-- **Profitability**: Insights into the most profitable product categories and locations.
-- **Customer Behavior**: Trends in ratings, payment preferences, and peak shopping hours.
+### Key Findings from Visual Analysis -> [Full checkout here]()
+**Profit Concentration**
+Profitability is heavily concentrated in two main areas. Fashion Accessories and Home & Lifestyle are the primary profit drivers, while the remaining three categories combined—Food & Beverages, Sports & Travel, and Health & Beauty—contribute less than 10% of the total profit. This presents a clear opportunity to focus marketing efforts on high-performing categories or to re-evaluate the strategy for underperforming ones.
+
+**Rating vs. Profitability Correlation** 
+The analysis reveals only a weak positive correlation between customer ratings and profit margins. While good service is important, a high rating on its own is not a strong predictor of a transaction's profitability. This indicates that product mix, pricing strategy, and cost of goods are the dominant factors driving profit margins.
+
+**Sales Cycle and Seasonality** 
+The business's sales trend has stabilized, showing a pattern of predictable seasonal peaks. This suggests that revenue is driven by periodic, high-impact sales events rather than steady, incremental growth. Future strategy could focus on maximizing these peak periods while exploring promotions to lift sales during off-peak times.urs.
 
 
 ---
