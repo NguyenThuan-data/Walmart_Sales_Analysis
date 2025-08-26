@@ -1,7 +1,9 @@
 # Walmart Data Analysis
 
 ## Project Overview
-This project is an end-to-end data analysis solution designed to extract critical business insights from any sales data. Utilizing Python for data processing, visualizating  and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is stimulated real-world tasks of data analysts. And for me as a student majoring in Data Science looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+This project is an end-to-end data analysis solution designed to extract critical business insights from any sales data. Utilizing Python for data processing, visualizating  and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is stimulated real-world tasks of data analysts.
+
+As a Data Science student, my goal was to move beyond theory and tackle a practical, end-to-end data analysis project. I chose to analyze this sales dataset to solve common business challenges, such as identifying top-performing products and pinpointing opportunities for growth. This project serves as a demonstration of my skills in data manipulation (Python), advanced querying (SQL), and extracting actionable insights that can drive business decisions. 
 
 This project analyzes Walmart sales data to answer critical business questions and uncover actionable insights. The key objectives were to:
 - Identify the top 5 revenue-generating branches.
@@ -47,7 +49,7 @@ This project analyzes Walmart sales data to answer critical business questions a
 
 ### 8. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
-   - **Project Publishing**: The project is public including:
+   - **Project Publishing**: The project is public on GitHub, including:
      - The `README.md` fil.
      - Jupyter Notebooks.
      - SQL query scripts.
