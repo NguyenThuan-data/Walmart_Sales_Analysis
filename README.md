@@ -1,7 +1,15 @@
 # Walmart Data Analysis
 
 ## Project Overview
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+This project is an end-to-end data analysis solution designed to extract critical business insights from any sales data. Utilizing Python for data processing, visualizating  and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is stimulated real-world tasks of data analysts. And for me as a student majoring in Data Science looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+
+This project analyzes Walmart sales data to answer critical business questions and uncover actionable insights. The key objectives were to:
+- Identify the top 5 revenue-generating branches.
+- Determine peak shopping hours and days to optimize staff scheduling.
+- Categorize products by popularity and profitability to inform pricing and marketing strategy.
+- Analyze customer ratings to identify branches requiring service improvements.
+- Explore product bundling opportunities through market basket analysis.
+- Track month-over-month revenue growth to assess business performance.
 
 ## Project Step
 
