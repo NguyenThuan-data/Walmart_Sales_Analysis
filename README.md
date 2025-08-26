@@ -47,6 +47,9 @@ This project analyzes Walmart sales data to answer critical business questions a
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions (check out sql script for business questions)
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
+### 8. Load cleaned data to parquet and perform visualization
+   - **Purpose:**  
+
 ### 8. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
    - **Project Publishing**: The project is public on GitHub, including:
