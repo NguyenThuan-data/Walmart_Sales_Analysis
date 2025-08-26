@@ -7,6 +7,11 @@ As a Data Science student, my goal was to move beyond theory and tackle a practi
 
 ---
 
+## Table of Contents
+- [Tools](#Tools)
+- [Files Structure](#Files-Structure)
+---
+
 ## Tools:
 - **Programming Languages:** Python
    - **Python Libraries:**
