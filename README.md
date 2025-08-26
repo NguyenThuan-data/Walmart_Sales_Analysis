@@ -5,13 +5,6 @@ This project is an end-to-end data analysis solution designed to extract critica
 
 As a Data Science student, my goal was to move beyond theory and tackle a practical, end-to-end data analysis project. I chose to analyze this sales dataset to solve common business challenges, such as identifying top-performing products and pinpointing opportunities for growth. This project serves as a demonstration of my skills in data manipulation (Python), advanced querying (SQL), and extracting actionable insights that can drive business decisions. 
 
-This project analyzes Walmart sales data to answer critical business questions and uncover actionable insights. The key objectives were to:
-- Identify the top 5 revenue-generating branches.
-- Determine peak shopping hours and days to optimize staff scheduling.
-- Categorize products by popularity and profitability to inform pricing and marketing strategy.
-- Analyze customer ratings to identify branches requiring service improvements.
-- Explore product bundling opportunities through market basket analysis.
-- Track month-over-month revenue growth to assess business performance.
 
 ## Project Step
 
@@ -45,10 +38,20 @@ This project analyzes Walmart sales data to answer critical business questions a
 
 ### 7. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions (check out sql script for business questions)
+         - Identify the top 5 revenue-generating branches.
+         - Determine peak shopping hours and days to optimize staff scheduling.
+         - Categorize products by popularity and profitability to inform pricing and marketing strategy.
+         - Analyze customer ratings to identify branches requiring service improvements.
+         - Explore product bundling opportunities through market basket analysis.
+         - Track month-over-month revenue growth to assess business performance.
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
-### 8. Load cleaned data to parquet and perform visualization
-   - **Purpose:**  
+### 8. Load cleaned data to parquet and perform visual analysis
+   - **Purpose:** To dig deeper into the data, I used Python's Matplotlib and Seaborn libraries to create visualizations that reveal key business trends and relationships. This visual approach helps translate raw numbers into actionable insights.
+   - **Core Questions**:
+      - Which product categories are the primary profit drivers? 
+      - Is there a link between customer ratings and profitability? .
+      - How do sales fluctuate over time?
 
 ### 8. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
