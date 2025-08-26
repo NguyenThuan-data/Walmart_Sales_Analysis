@@ -1,15 +1,20 @@
 # Walmart Data Analysis
 
-## Project Overview
-This project is an end-to-end data analysis solution designed to extract critical business insights from any sales data. Utilizing Python for data processing, visualizating  and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is stimulated real-world tasks of data analysts.
-
-As a Data Science student, my goal was to move beyond theory and tackle a practical, end-to-end data analysis project. I chose to analyze this sales dataset to solve common business challenges, such as identifying top-performing products and pinpointing opportunities for growth. This project serves as a demonstration of my skills in ETL process, data manipulation, cleansing, visualizing (Python), advanced querying (SQL), and extracting actionable insights that can drive business decisions. 
+## Table of Contents
+- [Project Goal and Motivation](#Project-Goal-and-Motivation)
+- [Tools](#Tools)
+- [Files Structure](#Files-Structure)
+- [Project Step](#Project-Step)
+- [Results and Insights](#Results-and-Insights)
+- [Challenges, Solutions and Lessions learned](#Challenges,-Solutions-and-Lessions-learned)
 
 ---
 
-## Table of Contents
-- [Tools](#Tools)
-- [Files Structure](#Files-Structure)
+## Project Goal and Motivation
+As a Data Science student, my goal was to move beyond theory and tackle a practical, end-to-end data analysis project. I chose to analyze this sales dataset to solve common business challenges, such as identifying top-performing products and pinpointing opportunities for growth. This project serves as a demonstration of my skills in ETL process, data manipulation, cleansing, visualizing (Python), advanced querying (SQL), and extracting actionable insights that can drive business decisions.  
+
+This project is an end-to-end data analysis solution designed to extract critical business insights from any sales data. Utilizing Python for data processing, visualizating  and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is stimulated real-world tasks of data analysts. For this specific project, I used Walmart sales dataset, to analyze 10,000 Walmart sales records to identify key drivers of revenue and customer satisfaction. This project answers critical business questions such as: 'Which product line generates the most revenue?', 'Which branch is underperforming?', and 'What are the peak shopping hours to optimize staffing?
+
 ---
 
 ## Tools:
