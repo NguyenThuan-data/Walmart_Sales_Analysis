@@ -135,6 +135,6 @@ Based on Key findings, below is the summary of challenges, solution and suggesti
 - **Lesson:** the final output isn't just the code or the charts, but the clear communication of its value.
 - **The Takeaway:** The most sophisticated analysis is ineffective if it can't be easily understood. Investing 20% of the project time in crafting a clear, compelling narrative in the README delivers 80% of the project's perceived value and impact. Great work that is poorly explained is invisible work.
 
-### 2 An Analyst's Job Is to Be a Storyteller
+### 2. Need to tell a story and informative insights
 - **Lesson:** The goal is not just to answer "what happened?" , but to answer "so what?" and "what now?".
 - **The Takeaway:** Not just conduct the Key Findings, but also what can we do from that Key fidings to imrove the business
