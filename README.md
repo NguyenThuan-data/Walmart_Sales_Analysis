@@ -1,7 +1,7 @@
 # Walmart Data Analysis
 
 ## Table of Contents
-- [Project Goal and Motivation](#Project-Goal-and-Motivation)
+- [Executive Summary and Business Opportunity](#Executive-Summary-and-Business-Opportunity)
 - [Tech Stack](#Tech-Stack)
 - [Files Structure](#Files-Structure)
 - [Project Workflow & ETL Pipeline](#Project-Workflow-&-ETL-Pipeline)
