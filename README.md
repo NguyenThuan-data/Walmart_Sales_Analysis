@@ -42,13 +42,12 @@ This project performs an end-to-end analysis of the Walmart sales dataset to unc
 ### 1. Data Extraction and Exploration
 This process is to get and analyze the raw data, to come up with cleaning strategies and potential investigation.
 
-- The raw **Walmart.csv** dataset was loaded into a Pandas DataFrame.
-  [insert loading code pics)
+- The raw **Walmart.csv** dataset was loaded into a Pandas DataFrame.  
 - The first analysis step inlude using functions like `.info()`, `.describe()`, and `.head()` to get a quick overview of the data structure and statistics.
 
-[insert .info pic]  
+![Initial Information of Raw dataset](./images/df.info.png)
 - This dataset contains 6435 rows(observations) and 8 columns(attributes). In unit_price, there is '$' which is very hard to do any calculation needed and it is classified as 'object', which is not correct. There also 10020 record, indicating that there might some missing data.
-[insert duplicate, and missing value identify pics]
+![Duplicated rows](./images/duplicated.png)
 - In `unit_price` and `quantity`, there are 31 missing values was indicate by `NaN`.
 - There are 102 duplicated rows
 
@@ -58,8 +57,6 @@ This process is to get and analyze the raw data, to come up with cleaning strate
    - **Fix Data Types**: Standardizing data types, converting `date` columns to `datetime` objects 
    - **Currency Formatting**: Use `.replace()` to remove **$** of `unit_price` columns and covert to `float`
 
- - New dataset shape after perform cleaning.
-
 ### 3. Feature Engineering
    - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column, etc.
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
@@ -68,19 +65,20 @@ This process is to get and analyze the raw data, to come up with cleaning strate
    -  Connect to PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
    - The cleaned and transformed DataFrame was efficiently loaded into a SQL table, automating the table creation process and ensuring a reliable data warehouse for analysis.
    - Initial validation queries were run to confirm a successful and accurate data load.
-   - [insert pic]
 
 ### 5. Business Intelligence & SQL Analysis
    - **Business Problem-Solving**: Write and execute SQL queries to answer critical business questions (check out sql script for all business questions)
    - **Key Business Questions Answered:**
-         - Identify the top 5 revenue-generating branches.  
-         - Determine peak shopping hours and days to optimize staff scheduling.  
-         - Categorize products by popularity and profitability to inform pricing and marketing strategy.  
-         - Analyze customer ratings to identify branches requiring service improvements.  
-         - Explore product bundling opportunities through market basket analysis.  
-         - Track month-over-month revenue growth to assess business performance.  
+     - Identify the top 5 revenue-generating branches.   
+     - Determine peak shopping hours and days to optimize staff scheduling.   
+     - Categorize products by popularity and profitability to inform pricing and marketing strategy.   
+     - Analyze customer ratings to identify branches requiring service improvements.   
+     - Explore product bundling opportunities through market basket analysis.    
+     - Track month-over-month revenue growth to assess business performance.  
+   
    - **Example Query: Identify the top 5 revenue-generating branches**
-
+     ![Example Query: Identify the top 5 revenue-generating branches](./images/top5.png)
+     
 ### 6. Project Publishing and Documentation
    - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
    - **Project Publishing**: The project is public on GitHub, including:
@@ -94,14 +92,16 @@ This process is to get and analyze the raw data, to come up with cleaning strate
 ## Key Findings and Visualizations
 
 ### "Health and beauty" is a Primary Profit Driver
-* Profitability is heavily concentrated in two main areas. Fashion Accessories and Home & Lifestyle are the primary profit drivers, while the remaining three categories combined—Food & Beverages, Sports & Travel, and Health & Beauty—contribute less than 10% of the total profit. This presents a clear opportunity to focus marketing efforts on high-performing categories or to re-evaluate the strategy for underperforming ones.  
+* Profitability is heavily concentrated in two main areas. Fashion Accessories and Home & Lifestyle are the primary profit drivers, while the remaining three categories combined—Food & Beverages, Sports & Travel, and Health & Beauty—contribute less than 10% of the total profit. This presents a clear opportunity to focus marketing efforts on high-performing categories or to re-evaluate the strategy for underperforming ones.
+![Profits by Product Category](./images/pro%20by%20product.png)
 
 ### Rating is not affect significantly to Profitability.
 * The analysis reveals only a weak positive correlation between customer ratings and profit margins. While good service is important, a high rating on its own is not a strong predictor of a transaction's profitability. This indicates that product mix, pricing strategy, and cost of goods are the dominant factors driving profit margins.  
+![Customer Ratings and Profit Margin](./images/ratingvs%20pro.png)
 
 ### Sales based on seasons, peak at the end of the year and stable for the rest. 
 * The business's sales trend has stabilized, showing a pattern of predictable seasonal peaks. This suggests that revenue is driven by periodic, high-impact sales events rather than steady, incremental growth. Future strategy could focus on maximizing these peak periods while exploring promotions to lift sales during off-peak times.urs.  
-
+![Total Sales Trend Over Time](./images/sale_trends.png)
 ---
 
 ## Actionable Insights
