@@ -67,5 +67,5 @@ streamlit run dashboard.py
 ```
 ---
 ## 🎓 Lessons Learned
-1. **Product > Code:** A recruiter spends 10 seconds on a repo. An interactive dashboard explains the value 10x faster than a 1,000-line script.
+1. **Product > Code:** An interactive dashboard explains the value 10x faster than a 1,000-line script.
 2. **Predictive over Descriptive:** Business value lies in answering "What next?", not just "What happened?".
