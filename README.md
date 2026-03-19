@@ -28,12 +28,11 @@ This project transforms raw retail transaction data into a **Strategic Decision-
 ---
 
 ## 🖥️ Interactive Dashboard
-I have enhanced this project from a static notebook into a **Live Business Intelligence Platform**.
+Transformed from a static notebook into a **Live Business Intelligence Platform** — filter by Branch, City, and Category in real time.
 
-> [!TIP]
-> **View the App Preview below!** (Implementing real-time filters for Branch, City, and Category).
+![Sales Trend Preview](./images/sale_trends.png)
 
-![Dashboard Preview](./images/dashboard_preview.png)
+> 🚀 **Run locally** with `streamlit run dashboard.py` → open [http://localhost:8501](http://localhost:8501)
 
 ---
 
@@ -67,7 +66,6 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 ---
-
 ## 🎓 Lessons Learned
 1. **Product > Code:** A recruiter spends 10 seconds on a repo. An interactive dashboard explains the value 10x faster than a 1,000-line script.
 2. **Predictive over Descriptive:** Business value lies in answering "What next?", not just "What happened?".
