@@ -12,7 +12,7 @@ st.markdown("""
     .main { background-color: #f5f7f9; }
     .stMetric { background-color: #ffffff; padding: 15px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
 </style>
-""", unsafe_allow_stdio=True)
+""", unsafe_allow_html=True)
 
 # Load Data
 @st.cache_data
